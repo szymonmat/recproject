@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-sm justify-content-end navbar-dark bg-dark">
-    <div class="container-fluid">
+    <div class="container-fluid justify-content-sm-center">
       <button
         class="navbar-toggler"
         type="button"
@@ -137,6 +137,7 @@ export default {
 #productOrder{
   border-color:#6c757d;
   color:#6c757d;
+  width: 260px;
 }
 #app h6 {
   font-weight: bold;
@@ -155,5 +156,8 @@ ul {
 }
 #cardList {
   padding-top: 40px;
+}
+#navbarSupportedContent{
+  max-width: 80%;
 }
 </style>
